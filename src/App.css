@@ -1,0 +1,85 @@
+.App {
+
+}
+
+.task-elements {
+  margin-top: 20px;
+}
+.task-element {
+  height: 80px;
+  background-color: blue;
+  width: 90%;
+  border: 1px solid;
+}
+
+div.clear {
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+  font-size: 0pt;
+  margin-top: -1px;
+}
+
+.App-content {
+  margin-top: 10px;
+}
+
+#container:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+label {
+  margin-right: 15px;
+}
+
+h2 {
+  display: inline-block;
+  margin-right: 65%;
+  margin-left: 1%;
+}
+
+.categories {
+  height: 400px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+.col-1 {
+  float: left;
+  margin-right: 10%;
+  margin-left: 2%;
+  width: 30%;
+  height: 300px;
+}
+
+
+li {
+  /*float: left;*/
+}
+
+.col-2 {
+  display: inline-block;
+  width: 55%;
+  height: 300px;
+}
+
+.bar {
+  padding: 2px;
+  height: 20px;
+  background-color: gray;
+  position: relative;
+  margin: auto;
+  width: 100%;
+}
+
+.bar > span {
+  background-color: rgb(43,194,83);
+  position: relative;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  width: 70%;
+}
+
